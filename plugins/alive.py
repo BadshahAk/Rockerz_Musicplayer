@@ -32,7 +32,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/0d0cd252270861a6838ce.jpg",
+        photo=f"https://te.legra.ph/file/b31885bcf0edba9db58e1.jpg",
         caption=f"""**
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ Ansi 💖  sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [jack sparrow](https://t.me/its_jack)
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...""",
