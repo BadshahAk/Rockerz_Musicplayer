@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 ᏢᏞᎬᎪՏᎬ ᎷᎪΝΝᎪᏞᏞᎽ ᎪᎠᎠ ᎪՏՏᏆՏͲᎪΝͲ ϴᎡ ᏟϴΝͲᎪᏟͲ @ROCKERZ_SUPPORT 🥀** ")
+                        f"**🎸 ᏢᏞᎬᎪՏᎬ ᎷᎪΝΝᎪᏞᏞᎽ ᎪᎠᎠ ᎪՏՏᏆՏͲᎪΝͲ ϴᎡ ᏟϴΝͲᎪᏟͲ @ansi_music_line 🥀** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 ᏢᏞᎬᎪՏᎬ ᎪᎠᎠ ᎷᎪΝႮᎪᏞᏞᎽ ϴᎡ ᏟϴΝͲᎪᏟͲ @ROCKERZ_SUPPORT ...*")
+            f"**🎸 ᏢᏞᎬᎪՏᎬ ᎪᎠᎠ ᎷᎪΝႮᎪᏞᏞᎽ ϴᎡ ᏟϴΝͲᎪᏟͲ @ansi_music_line ...*")
         return
     
     audio = (
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/006da7a40b81bd6cb2840.png"
+        thumb_name = "https://te.legra.ph/file/9fe3367def7305bcc55cf.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -172,12 +172,12 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Support"),
-                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol"),
+                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Friendschattinggrp"),
+                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Friendschattinggrp"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "乂ʙᴏᴛ Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates")],
+                        "乂ʙᴏᴛ Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Friendschattinggrp")],
            ]
             
         )
@@ -213,30 +213,30 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Support"),
-                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol"),
+                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Friendschattinggrp"),
+                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Friendschattinggrp"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "乂ʙᴏᴛ Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates")],
+                        "乂ʙᴏᴛ Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Friendschattinggrp")],
 
            ]
         )
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/006da7a40b81bd6cb2840.png"
+            thumb_name = "https://te.legra.ph/file/9fe3367def7305bcc55cf.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Support"),
-                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol"),
+                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Friendschattinggrp"),
+                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Friendschattinggrp"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "乂ʙᴏᴛ  Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates")],
+                        "乂ʙᴏᴛ  Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Friendschattinggrp")],
            ]
             
         )
@@ -287,12 +287,12 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Support"),
-                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol"),
+                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Friendschattinggrp"),
+                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Friendschattinggrp"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "乂ʙᴏᴛ Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates")],
+                        "乂ʙᴏᴛ Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Friendschattinggrp")],
             ]
             
         )
@@ -343,8 +343,8 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/564f5ebbd100278261a03.jpg", 
-                             caption="**💥 ᎡϴᏟᏦᎬᎡᏃ  ᎷႮՏᏆᏟ ᏢᎪႮՏᎬᎠ ...**"
+                             photo="https://te.legra.ph/file/b31885bcf0edba9db58e1.jpg", 
+                             caption="** Ansi 💖  ᎷႮՏᏆᏟ ᏢᎪႮՏᎬᎠ ...**"
     )
 
 
@@ -354,8 +354,8 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/564f5ebbd100278261a03.jpg", 
-                             caption="**💥 ᎡϴᏟᏦᎬᎡᏃ ᎪᏀᎪᏆΝ ՏͲᎪᎡͲᎬᎠ ᏢᏞᎪᎽᏆΝᏀ 🌷 ...**"
+                             photo="https://te.legra.ph/file/b31885bcf0edba9db58e1.jpg", 
+                             caption="**💥 Ansi 💖 ᎪᏀᎪᏆΝ ՏͲᎪᎡͲᎬᎠ ᏢᏞᎪᎽᏆΝᏀ 🌷 ...**"
     )
 
 
@@ -370,7 +370,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💥 ᎡϴᏟᏦᎬᎡᏃ 💞   ΝϴͲᎻᏆΝᏀ \n🚫 ᏢᏞᎪᎽᏆΝᏀ🌷 ...**")
+        await message.reply_text("**💥 Ansi 💖  💞   ΝϴͲᎻᏆΝᏀ \n🚫 ᏢᏞᎪᎽᏆΝᏀ🌷 ...**")
     else:
         queues.task_done(chat_id)
         
@@ -388,8 +388,8 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/564f5ebbd100278261a03.jpg", 
-                             caption=f'**💥 ᎡϴᏟᏦᎬᎡᏃ 🔈 ᎷႮՏᏆᏟ🤞 ΝϴᏔ \n⏩  ՏᏦᏆᏢᏢᎬᎠ 🌷 ...**'
+                             photo="https://te.legra.ph/file/b31885bcf0edba9db58e1.jpg", 
+                             caption=f'**💥 Ansi 💖  🔈 ᎷႮՏᏆᏟ🤞 ΝϴᏔ \n⏩  ՏᏦᏆᏢᏢᎬᎠ 🌷 ...**'
    ) 
 
 
@@ -404,8 +404,8 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/564f5ebbd100278261a03.jpg", 
-                             caption="**💥 ᎡϴᏟᏦᎬᎡᏃ 🔈 ᎷႮՏᏆᏟ ΝϴᏔ 🥀\n❌ ՏͲϴᏢᏢᎬᎠ 🌷 ...**"
+                             photo="https://te.legra.ph/file/b31885bcf0edba9db58e1.jpg", 
+                             caption="**💥 Ansi 💖  🔈 ᎷႮՏᏆᏟ ΝϴᏔ 🥀\n❌ ՏͲϴᏢᏢᎬᎠ 🌷 ...**"
     )
 
 
@@ -422,7 +422,7 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/564f5ebbd100278261a03.jpg",
-                              caption="**💥 ᎡϴᏟᏦᎬᎡᏃ 🔈 ᎷႮՏᏆᏟ🤞ΝϴᏔ🥀\n🔥 ᎡᎬᏞϴᎪᎠᎬᎠ 🌷 ...**"
+                              photo="https://te.legra.ph/file/b31885bcf0edba9db58e1.jpg",
+                              caption="**💥 Ansi 💖  🔈 ᎷႮՏᏆᏟ🤞ΝϴᏔ🥀\n🔥 ᎡᎬᏞϴᎪᎠᎬᎠ 🌷 ...**"
     )
 
