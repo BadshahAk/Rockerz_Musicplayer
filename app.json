@@ -7,23 +7,23 @@
     "stack": "container",
     "env": {
         "API_ID": {
-            "description": "Your App ID",
+            "description": "8153590",
             "required": true
         },
         "API_HASH": {
-            "description": "Your App Hash",
+            "description": "843445d5979e767acb1394aa9df85d94",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Put Bot Token Of Your Bot",
+            "description": "2028970523:AAEj8vwFxZxMrDFAQk_ndQHeZ2dmupDVSaU",
             "required": true
         },
          "BOT_USERNAME": {
-            "description": "Put Bot Username Of Your Bot",
+            "description": "@ansi_Ro_Bot",
             "required": true
         },
         "STRING_SESSION": {
-            "description": "Pyrogram String Session",
+            "description": "BQAEv7UvDlIkqjeSPXQjb3X8iYvTlpUN10auapfqJ-a8wowJQNuefQN2tXcDINiybmpxib784ql4pufjsjRDmRgeAYryFuZBVHzIop3LzoHpzwbnPP7HPwuhkzrWHUeinIzpEQlKxkaP9emmmGIJGqDhDkirUTbcLYac4OubAi7S1eo6BGXWRIngd9c3N0be9uBYJSMTQIHiDxOvWUkcJWVVHloCLpYWolPNTZsvsbMwZDsVF8eBZrAfsZGU1eDSVvb4KLjkSVEYs7TNMTgcBpfiiIeExsMlOX-SxY3gY8mUxrc4XqKw_K0pO62W8hohG8xn0CbXhvWP_0vdBYpN8hROf8KAKAA",
             "required": true
         }
     },
