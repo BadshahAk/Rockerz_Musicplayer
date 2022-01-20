@@ -34,7 +34,7 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/0d0cd252270861a6838ce.jpg",
         caption=f"""**
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ʀᴏᴄᴋᴇʀᴢ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](https://t.me/xmartperson)
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ Ansi 💖  sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [jack sparrow](https://t.me/its_jack)
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...""",
    reply_markup=InlineKeyboardMarkup(
             [
@@ -43,23 +43,7 @@ async def start_(client: Client, message: Message):
                         "乂ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ乂",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
-                ],
-                [            
-                 InlineKeyboardButton  ("乂ᴄʀᴇᴀᴛᴇʀ乂", url=f"https://t.me/Xmartperson"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "乂sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ乂", url=f"https://t.me/Rockerz_Support"
-                    ),
-                    InlineKeyboardButton(
-                        "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol")
-                ]
-                
+                ]                
            ]
         ),
     )
@@ -74,7 +58,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/ROCKERZ_SUPPORT")
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/Friendschattinggrp")
                 ]
             ]
         ),
@@ -90,7 +74,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/S780821/Rockerz_Musicplayer")
+                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/Friendschattinggrp")
                 ]
             ]
         ),
